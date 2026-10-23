@@ -1,0 +1,33 @@
+# Book data and production data — never published (code-only repo)
+seed_data.json
+casting_notes.json
+render_manifest.json
+render_jobs_compact.json
+results.jsonl
+distinctness.json
+public/sample-passage.json
+
+# Audio renders
+*.mp3
+
+# Local plumbing / pipeline scripts (account + DB identifiers, manuscript paths)
+cf.py
+d1tool.py
+seed_upload.py
+seed_segments.py
+seed_segments_fast.py
+gen_seed.py
+build_manifest.py
+test_api.py
+
+# Working dirs and backups
+disputes-handoff/
+incoming/
+mini/
+backup-*/
+__pycache__/
+*.bak*
+*.tgz
+
+# API test suites (run against the live deployment; kept locally)
+test_*.py

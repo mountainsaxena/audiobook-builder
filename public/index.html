@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Audiobook Builder</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">🎧 Audiobook Builder</div>
+  <div class="bookpick">
+    <label for="bookSel">Book</label>
+    <select id="bookSel"></select>
+    <a href="#newbook" class="btn small">+ New book</a>
+  </div>
+  <nav id="mainnav">
+    <a href="#home">Home</a>
+    <a href="#book">Here's your book</a>
+    <a href="#sample">Hear a sample</a>
+    <a href="#speakers">Who's speaking?</a>
+    <a href="#cast">Cast your voices</a>
+    <a href="#tricky">Tricky words</a>
+    <a href="#pron">Pronunciation Book</a>
+    <a href="#listen">Listen &amp; fix</a>
+    <a href="#recording">Recording</a>
+    <a href="#files">Make my files</a>
+    <a href="#replace">Replace manuscript</a>
+  </nav>
+</header>
+<div id="milestones"></div>
+<main id="view"><p class="muted">Loading…</p></main>
+<div id="toast"></div>
+<script src="/app.js"></script>
+</body>
+</html>
